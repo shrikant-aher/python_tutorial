@@ -42,9 +42,9 @@ def check_email(email):
 
     # Assume 250 as Success
     if code == 250:
-        return 'Success'
+        return 'valid email id'
     else:
-        return 'Bad'
+        return 'invalid email id'
 
 if __name__ == "__main__":
     print "enter mail id"
