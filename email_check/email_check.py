@@ -51,3 +51,5 @@ if __name__ == "__main__":
     email_id = raw_input()
     if check_syntax(email_id):
         print check_email(email_id)
+    else:
+        print "invalid email"
